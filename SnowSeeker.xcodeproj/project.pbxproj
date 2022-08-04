@@ -15,6 +15,7 @@
 		F946A62D289BBDB700DDD402 /* SnowSeekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A62C289BBDB700DDD402 /* SnowSeekerUITests.swift */; };
 		F946A62F289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A62E289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift */; };
 		F946A63D289BC43300DDD402 /* SideBySideViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A63C289BC43300DDD402 /* SideBySideViews.swift */; };
+		F946A63F289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A63E289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		F946A62C289BBDB700DDD402 /* SnowSeekerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerUITests.swift; sourceTree = "<group>"; };
 		F946A62E289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F946A63C289BC43300DDD402 /* SideBySideViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBySideViews.swift; sourceTree = "<group>"; };
+		F946A63E289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndSheetWithOptionals.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -134,6 +136,7 @@
 			isa = PBXGroup;
 			children = (
 				F946A63C289BC43300DDD402 /* SideBySideViews.swift */,
+				F946A63E289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift */,
 			);
 			path = Learning;
 			sourceTree = "<group>";
@@ -268,6 +271,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F946A63F289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift in Sources */,
 				F946A614289BBDB500DDD402 /* ContentView.swift in Sources */,
 				F946A612289BBDB500DDD402 /* SnowSeekerApp.swift in Sources */,
 				F946A63D289BC43300DDD402 /* SideBySideViews.swift in Sources */,
