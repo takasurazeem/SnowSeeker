@@ -18,6 +18,7 @@
 		F946A63F289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A63E289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift */; };
 		F946A641289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A640289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift */; };
 		F946A643289C5D9100DDD402 /* SearchableViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A642289C5D9100DDD402 /* SearchableViews.swift */; };
+		F946A645289C616900DDD402 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = F946A644289C616900DDD402 /* resorts.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +53,7 @@
 		F946A63E289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndSheetWithOptionals.swift; sourceTree = "<group>"; };
 		F946A640289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAsTransparentLayoutContainer.swift; sourceTree = "<group>"; };
 		F946A642289C5D9100DDD402 /* SearchableViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchableViews.swift; sourceTree = "<group>"; };
+		F946A644289C616900DDD402 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +107,7 @@
 				F946A63B289BBDE400DDD402 /* Learning */,
 				F946A611289BBDB500DDD402 /* SnowSeekerApp.swift */,
 				F946A613289BBDB500DDD402 /* ContentView.swift */,
+				F946A644289C616900DDD402 /* resorts.json */,
 				F946A615289BBDB700DDD402 /* Assets.xcassets */,
 				F946A617289BBDB700DDD402 /* Preview Content */,
 			);
@@ -251,6 +254,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F946A645289C616900DDD402 /* resorts.json in Resources */,
 				F946A619289BBDB700DDD402 /* Preview Assets.xcassets in Resources */,
 				F946A616289BBDB700DDD402 /* Assets.xcassets in Resources */,
 			);
