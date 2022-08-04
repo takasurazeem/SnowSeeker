@@ -16,6 +16,22 @@ struct ContentView: View {
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Group {
+            ContentView()
+                .previewDevice("iPhone 13 mini")
+                .previewInterfaceOrientation(.landscapeRight)
+            ContentView()
+                .previewInterfaceOrientation(.portrait)
+            ContentView()
+                .previewInterfaceOrientation(.landscapeRight)
+            ContentView()
+                .previewDevice("iPad mini (6th generation)")
+            ContentView()
+                .previewDevice("iPad mini (6th generation)")
+                .previewInterfaceOrientation(.landscapeRight)
+            ContentView()
+                .previewDevice("iPad Pro (12.9-inch) (5th generation)")
+                .previewInterfaceOrientation(.landscapeRight)
+        }
     }
 }
