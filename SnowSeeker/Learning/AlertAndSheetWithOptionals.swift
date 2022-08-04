@@ -17,11 +17,7 @@ struct AlertAndSheetWithOptionals: View {
                 isShowingUser = true
                 selectedUser = User()
             }
-            .alert("Salam", isPresented: $isShowingUser, presenting: selectedUser) { user in
-                Button(user.id) {
-                    
-                }
-            }
+            .alert("Welcome", isPresented: $isShowingUser) { }
     }
 }
 
