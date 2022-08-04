@@ -8,15 +8,29 @@
 import SwiftUI
 
 struct GroupsAsTransparentLayoutContainer: View {
-    
+    @State private var layoutVertically = false
+
     var body: some View {
-        UserView()
+        Group {
+            if layoutVertically {
+                VStack {
+                    UserView()
+                }
+            } else {
+                HStack {
+                    UserView()
+                }
+            }
+        }
+        .onTapGesture {
+            layoutVertically.toggle()
+        }
     }
     
     struct UserView: View {
         var body: some View {
             Group {
-                Text("Name: Takasur Azeem")
+                Text("Name: Takasur")
                 Text("Country: Pakistan")
                 Text("Hobbies: SwiftUI")
             }
