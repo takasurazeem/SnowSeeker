@@ -8,22 +8,13 @@
 import SwiftUI
 
 struct GroupsAsTransparentLayoutContainer: View {
-    @State private var layoutVertically = false
-
+    @Environment(\.horizontalSizeClass) var sizeClass
+    
     var body: some View {
-        Group {
-            if layoutVertically {
-                VStack {
-                    UserView()
-                }
-            } else {
-                HStack {
-                    UserView()
-                }
-            }
-        }
-        .onTapGesture {
-            layoutVertically.toggle()
+        if sizeClass == .compact {
+            VStack(content: UserView.init)
+        } else {
+            HStack(content: UserView.init)
         }
     }
     
@@ -42,6 +33,7 @@ struct GroupsAsTransparentLayoutContainer: View {
 struct GroupsAsTransparentLayoutContainer_Previews: PreviewProvider {
     static var previews: some View {
         GroupsAsTransparentLayoutContainer()
+//            .previewInterfaceOrientation(.landscapeRight)
     }
 }
 
