@@ -14,6 +14,7 @@
 		F946A623289BBDB700DDD402 /* SnowSeekerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A622289BBDB700DDD402 /* SnowSeekerTests.swift */; };
 		F946A62D289BBDB700DDD402 /* SnowSeekerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A62C289BBDB700DDD402 /* SnowSeekerUITests.swift */; };
 		F946A62F289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A62E289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift */; };
+		F946A63D289BC43300DDD402 /* SideBySideViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A63C289BC43300DDD402 /* SideBySideViews.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		F946A628289BBDB700DDD402 /* SnowSeekerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnowSeekerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F946A62C289BBDB700DDD402 /* SnowSeekerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerUITests.swift; sourceTree = "<group>"; };
 		F946A62E289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F946A63C289BC43300DDD402 /* SideBySideViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBySideViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,6 +96,7 @@
 		F946A610289BBDB500DDD402 /* SnowSeeker */ = {
 			isa = PBXGroup;
 			children = (
+				F946A63B289BBDE400DDD402 /* Learning */,
 				F946A611289BBDB500DDD402 /* SnowSeekerApp.swift */,
 				F946A613289BBDB500DDD402 /* ContentView.swift */,
 				F946A615289BBDB700DDD402 /* Assets.xcassets */,
@@ -125,6 +128,14 @@
 				F946A62E289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift */,
 			);
 			path = SnowSeekerUITests;
+			sourceTree = "<group>";
+		};
+		F946A63B289BBDE400DDD402 /* Learning */ = {
+			isa = PBXGroup;
+			children = (
+				F946A63C289BC43300DDD402 /* SideBySideViews.swift */,
+			);
+			path = Learning;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +270,7 @@
 			files = (
 				F946A614289BBDB500DDD402 /* ContentView.swift in Sources */,
 				F946A612289BBDB500DDD402 /* SnowSeekerApp.swift in Sources */,
+				F946A63D289BC43300DDD402 /* SideBySideViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
