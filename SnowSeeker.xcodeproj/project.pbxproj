@@ -16,6 +16,7 @@
 		F946A62F289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A62E289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift */; };
 		F946A63D289BC43300DDD402 /* SideBySideViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A63C289BC43300DDD402 /* SideBySideViews.swift */; };
 		F946A63F289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A63E289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift */; };
+		F946A641289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A640289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		F946A62E289BBDB700DDD402 /* SnowSeekerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnowSeekerUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		F946A63C289BC43300DDD402 /* SideBySideViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideBySideViews.swift; sourceTree = "<group>"; };
 		F946A63E289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertAndSheetWithOptionals.swift; sourceTree = "<group>"; };
+		F946A640289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsAsTransparentLayoutContainer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		F946A605289BBDB500DDD402 = {
 			isa = PBXGroup;
 			children = (
+				F946A640289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift */,
 				F946A610289BBDB500DDD402 /* SnowSeeker */,
 				F946A621289BBDB700DDD402 /* SnowSeekerTests */,
 				F946A62B289BBDB700DDD402 /* SnowSeekerUITests */,
@@ -274,6 +277,7 @@
 				F946A63F289BC49B00DDD402 /* AlertAndSheetWithOptionals.swift in Sources */,
 				F946A614289BBDB500DDD402 /* ContentView.swift in Sources */,
 				F946A612289BBDB500DDD402 /* SnowSeekerApp.swift in Sources */,
+				F946A641289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift in Sources */,
 				F946A63D289BC43300DDD402 /* SideBySideViews.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
