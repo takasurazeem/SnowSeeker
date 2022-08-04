@@ -9,14 +9,18 @@ import SwiftUI
 
 struct AlertAndSheetWithOptionals: View {
     @State private var selectedUser: User? = nil
+    @State private var isShowingUser = false
 
     var body: some View {
         Text("Salam!")
             .onTapGesture {
+                isShowingUser = true
                 selectedUser = User()
             }
-            .sheet(item: $selectedUser) { user in
-                Text(user.id)
+            .alert("Salam", isPresented: $isShowingUser, presenting: selectedUser) { user in
+                Button(user.id) {
+                    
+                }
             }
     }
 }
