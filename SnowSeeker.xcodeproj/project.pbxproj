@@ -21,6 +21,7 @@
 		F946A645289C616900DDD402 /* resorts.json in Resources */ = {isa = PBXBuildFile; fileRef = F946A644289C616900DDD402 /* resorts.json */; };
 		F946A647289C629E00DDD402 /* Resort.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A646289C629E00DDD402 /* Resort.swift */; };
 		F946A649289C62E500DDD402 /* Bundle-Decodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A648289C62E500DDD402 /* Bundle-Decodable.swift */; };
+		F946A64B289D63CD00DDD402 /* WelcomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F946A64A289D63CD00DDD402 /* WelcomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		F946A644289C616900DDD402 /* resorts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = resorts.json; sourceTree = "<group>"; };
 		F946A646289C629E00DDD402 /* Resort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resort.swift; sourceTree = "<group>"; };
 		F946A648289C62E500DDD402 /* Bundle-Decodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bundle-Decodable.swift"; sourceTree = "<group>"; };
+		F946A64A289D63CD00DDD402 /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +113,7 @@
 				F946A63B289BBDE400DDD402 /* Learning */,
 				F946A611289BBDB500DDD402 /* SnowSeekerApp.swift */,
 				F946A613289BBDB500DDD402 /* ContentView.swift */,
+				F946A64A289D63CD00DDD402 /* WelcomeView.swift */,
 				F946A646289C629E00DDD402 /* Resort.swift */,
 				F946A648289C62E500DDD402 /* Bundle-Decodable.swift */,
 				F946A644289C616900DDD402 /* resorts.json */,
@@ -291,6 +294,7 @@
 				F946A614289BBDB500DDD402 /* ContentView.swift in Sources */,
 				F946A647289C629E00DDD402 /* Resort.swift in Sources */,
 				F946A649289C62E500DDD402 /* Bundle-Decodable.swift in Sources */,
+				F946A64B289D63CD00DDD402 /* WelcomeView.swift in Sources */,
 				F946A643289C5D9100DDD402 /* SearchableViews.swift in Sources */,
 				F946A612289BBDB500DDD402 /* SnowSeekerApp.swift in Sources */,
 				F946A641289BC98800DDD402 /* GroupsAsTransparentLayoutContainer.swift in Sources */,
